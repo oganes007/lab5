@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+.foto_select{
+	padding-left: 200px;
+}
+</style>
+</head>
+<body>
+<p>
+<a href="javascript:image('img1.jpg')"><img src="img1.jpg" width="200" height="150">
+<a href="javascript:image('img2.jpg')"><img src="img2.jpg" width="200" height="150">
+<a href="javascript:image('img3.jpg')"><img src="img3.jpg" width="200" height="150">
+</p>
+<div class="foto_select">
+<img src="img1.jpg" width="200" height="150" name="example_img">
+</div>
+<script type="text/javascript">
+function image(a) {
+        document.example_img.src = a;
+    }
+</script>
+<a href="5.2.html">Next</a>
+</body>
+</html>
